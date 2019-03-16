@@ -1,0 +1,3 @@
+ganga
+PyPDF2
+pdfminer.six

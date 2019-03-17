@@ -50,7 +50,7 @@ and outputs the result to tryout.txt file.
 
 Custom Merger
 ------------------
-CustomMerger class is passed the pdfmerger.py script. The script contains ``mergefiles(file_list,output_file)`` function which reads all the files in ``file_list`` adds the occurences and writes the output to ``output_file``(tryout.txt)
+CustomMerger class is passed the pdfmerger.py script. The script contains ``mergefiles(file_list,output_file)`` function which reads all the files in ``file_list`` adds the occurences and writes the output to ``output_file`` (tryout.txt)
 
 Run and checking the output
 -----------

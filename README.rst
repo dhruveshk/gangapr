@@ -33,6 +33,8 @@ The output of ganga job will be tryout.txt file. Custom Merger is add to postpro
 ArgumentSplitter uses the args attribute which is passed a list of the pdf files and creates multiple subjobs.
 Each subjob reads the pdf file passed to it in the argument using `pdfminer`_ command line tool
 
+.. _pdfminer: https://github.com/pdfminer/pdfminer.six
+
 .. code-block:: bash
 
       pdf2txt.py cern1.pdf
@@ -45,7 +47,7 @@ Each subjob reads the pdf file passed to it in the argument using `pdfminer`_ co
 
 and outputs the result to tryout.txt file.
 
-.. _pdfmine: https://github.com/pdfminer/pdfminer.six
+
 Custom Merger
 ------------------
 CustomMerger class is passed the pdfmerger.py script. The script contains ``mergefiles(file_list,output_file)`` function which reads all the files in ``file_list`` adds the occurences and writes the output to ``output_file``(tryout.txt)

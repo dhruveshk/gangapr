@@ -80,6 +80,7 @@ To run the docker file type
 
 The container will execute the above ganga job and produce the output.
 To view the output use
+
 .. code-block:: bash
 
     !cat /root/gangadir/workspace/root/LocalXML/0/output/tryout.txt
@@ -99,4 +100,5 @@ dockerex.py script runs the container.
       j.application.exe = File('dockerex.py')
       j.submit()
       j.peek('stdout')
+
 This creates a ganga job with executable file given as dockerex.py python script. It will run the container and ouput to stdout.

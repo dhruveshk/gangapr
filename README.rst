@@ -96,6 +96,7 @@ Installed docker for python using ``pip``
 dockerex.py script runs the container.
 
 .. code-block:: bash
+
       j = Job()
       j.application.exe = File('dockerex.py')
       j.submit()

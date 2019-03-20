@@ -2,7 +2,7 @@
 import os
 import sys
 import PyPDF2 as pd
-
+import re
 
 
 pstr = os.popen('pdf2txt.py /home/gangapr/'+str(sys.argv[1])).read()
